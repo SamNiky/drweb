@@ -1,5 +1,5 @@
 
-"""API для работы с файлами"""
+""" API для работы с файлами """
 
 import os
 import logging

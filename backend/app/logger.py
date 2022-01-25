@@ -1,7 +1,10 @@
+
+""" Настройки логирования """
+
 import logging
 import logging.handlers
 
-
+# Функция для настройки менеджера логирования
 def init_logger(name):
     logger = logging.getLogger(name)
     format = '%(name)s - %(levelname)s - %(asctime)s - %(message)s'
